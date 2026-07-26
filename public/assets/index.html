@@ -23,18 +23,23 @@
     </div>
 
     <div class="container hidden" id="app-container">
-        <h2>Welcome</h2>
-        <button onclick="logout()">Logout</button>
+        <h2>Gossip</h2>
         <hr>
-        <h2>Create a Post</h2>
+        <h2>Spread the word</h2>
         <input type="text" id="post-title" placeholder="Title">
         <textarea id="post-content" placeholder="Content"></textarea>
-        <button onclick="createPost()">Submit Post</button>
+        <button onclick="createPost()">Spread</button>
         <hr>
         <h2>Posts</h2>
-        <button onclick="fetchPosts()">Load Posts</button>
+        <button onclick="fetchPosts()"></button>
         <div id="posts"></div>
+
+        <button onclick="logout()">Logout</button>
     </div>
+
+    
+
+</body>
 
     <script src="./assets/script.js"></script>
 </body>

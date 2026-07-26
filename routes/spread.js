@@ -18,7 +18,11 @@ app.post("/", async (req, res) => {
 
 app.get("/", async (req, res) => {
   try {
-    const posts = await Post.findAll();
+    const {category_id} = req.query;
+
+    const whereClause = category_id ? { category_id } : {};
+    const posts = await Post.findAll({ where: whereClause,
+    include: [{ model: Category}] });
 
     res.json(posts);
   } catch (error) {
