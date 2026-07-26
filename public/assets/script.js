@@ -32,17 +32,17 @@ function login() {
   })
     .then((res) => res.json())
     .then((data) => {
-      // Save the token in the local storage
+      
       if (data.token) {
         localStorage.setItem("authToken", data.token);
         token = data.token;
 
         alert("User Logged In successfully");
 
-        // Fetch the posts list
+       
         fetchPosts();
 
-        // Hide the auth container and show the app container as we're now logged in
+        
         document.getElementById("auth-container").classList.add("hidden");
         document.getElementById("app-container").classList.remove("hidden");
       } else {
@@ -59,7 +59,7 @@ function logout() {
     method: "POST",
     headers: { Authorization: `Bearer ${token}` },
   }).then(() => {
-    // Clear the token from the local storage as we're now logged out
+
     localStorage.removeItem("authToken");
     token = null;
     document.getElementById("auth-container").classList.remove("hidden");
@@ -68,7 +68,7 @@ function logout() {
 }
 
 function fetchPosts() {
-  fetch("http://localhost:3001/api/posts", {
+  fetch("http://localhost:3001/api/spread", {
     method: "GET",
     headers: { Authorization: `Bearer ${token}` },
   })
@@ -91,7 +91,7 @@ function fetchPosts() {
 function createPost() {
   const title = document.getElementById("post-title").value;
   const content = document.getElementById("post-content").value;
-  fetch("http://localhost:3001/api/posts", {
+  fetch("http://localhost:3001/api/spread", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
