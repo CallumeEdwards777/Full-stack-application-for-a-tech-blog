@@ -1,7 +1,7 @@
 const app = require("express").Router();
 
 
-const { Post } = require("../models/index");
+const { Post, Category } = require("../models/index");
 
 
 app.post("/", async (req, res) => {
@@ -22,11 +22,12 @@ app.get("/", async (req, res) => {
 
     const whereClause = category_id ? { category_id } : {};
     const posts = await Post.findAll({ where: whereClause,
-    include: [{ model: Category}] });
+    include: [{ model: Category, as: "category" }] });
 
     res.json(posts);
   } catch (error) {
-    res.status(500).json({ error: "Error retrieving posts", error });
+    console.log(error);
+    res.status(500).json({ error: "Error retrieving posts"});
   }
 });
 

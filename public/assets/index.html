@@ -28,10 +28,14 @@
         <h2>Spread the word</h2>
         <input type="text" id="post-title" placeholder="Title">
         <textarea id="post-content" placeholder="Content"></textarea>
+        <select id="post-category"></select>
         <button onclick="createPost()">Spread</button>
         <hr>
         <h2>Posts</h2>
-        <button onclick="fetchPosts()"></button>
+        <select id="filter-category" onchange="fetchPosts()">
+            <option value="">All Categories</option>
+        </select>
+        <button onclick="fetchPosts()">Load Gossip</button>
         <div id="posts"></div>
 
         <button onclick="logout()">Logout</button>

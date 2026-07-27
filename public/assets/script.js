@@ -41,6 +41,7 @@ function login() {
 
        
         fetchPosts();
+        loadcategories();
 
         
         document.getElementById("auth-container").classList.add("hidden");
@@ -67,8 +68,34 @@ function logout() {
   });
 }
 
+function loadcategories() {
+  fetch("http://localhost:3001/api/category", {
+    headers: { Authorization: `Bearer ${token}` },
+  })
+    .then((res) => res.json())
+    .then((categories) => {
+      const postCategory = document.getElementById("post-category");
+      const filterCategory = document.getElementById("filter-category");
+      postCategory.innerHTML = "";
+      filterCategory.innerHTML = '<option value="">All Categories</option>';
+      categories.forEach((category) => {
+        const option = document.createElement("option");
+        option.value = category.id;
+        option.textContent = category.name;
+        postCategory.appendChild(option);
+        filterCategory.appendChild(option.cloneNode(true));
+        filterCategorySelect.appendChild(filterOption);
+      });
+    });
+}
+
 function fetchPosts() {
-  fetch("http://localhost:3001/api/spread", {
+  const categoryId = document.getElementById("filter-category").value;
+  const url = categoryId
+    ? `http://localhost:3001/api/spread?category_id=${categoryId}`
+    : "http://localhost:3001/api/spread";
+
+  fetch(url, {
     method: "GET",
     headers: { Authorization: `Bearer ${token}` },
   })
@@ -91,13 +118,14 @@ function fetchPosts() {
 function createPost() {
   const title = document.getElementById("post-title").value;
   const content = document.getElementById("post-content").value;
+  const categoryId = document.getElementById("post-category").value;
   fetch("http://localhost:3001/api/spread", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${token}`,
     },
-    body: JSON.stringify({ title, content, postedBy: "User" }),
+    body: JSON.stringify({ title, content, postedBy: "User", categoryId }),
   })
     .then((res) => res.json())
     .then(() => {
