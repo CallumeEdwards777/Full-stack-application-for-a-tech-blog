@@ -1,122 +1,362 @@
 [
   {
-    "title": "The Rise of AI in Web Development",
-    "content": "AI is transforming how we build websites, making development faster and smarter.",
-    "postedBy": "John Doe",
-    "createdOn": "2024-02-04T12:00:00Z"
+    "category": "Fashion",
+    "title": "Spotted Together Again: Estelle Rourke and Devon Ashcroft",
+    "content": "Estelle Rourke and Devon Ashcroft were seen leaving a fashion week showcase hand in hand late last night, fueling fresh dating rumors after weeks of denial from both camps. Insiders close to the pair say the two have been quietly texting for months.",
+    "posted on": "2025-08-17"
   },
   {
-    "title": "Understanding JavaScript Closures",
-    "content": "Closures allow functions to retain access to variables even after execution.",
-    "postedBy": "Jane Smith",
-    "createdOn": "2024-02-03T10:15:00Z"
+    "category": "Reality TV",
+    "title": "Feud Heats Up: Lila Monroe and Zane Ferris",
+    "content": "Tension between Lila Monroe and Zane Ferris boiled over this week when a since-deleted post appeared to take a swipe at their former collaborator. Fans are split over who started it, but sources say the fallout stems from a canceled joint project.",
+    "posted on": "2026-03-09"
   },
   {
-    "title": "Node.js Performance Optimization Tips",
-    "content": "Learn how to speed up your Node.js applications with caching and clustering.",
-    "postedBy": "Alice Brown",
-    "createdOn": "2024-02-02T08:45:00Z"
+    "category": "Fashion",
+    "title": "Feud Heats Up: Jax Rowen and Marisa Kane",
+    "content": "Tension between Jax Rowen and Marisa Kane boiled over this week when a since-deleted post appeared to take a swipe at their former collaborator. Fans are split over who started it, but sources say the fallout stems from a canceled joint project.",
+    "posted on": "2026-06-02"
   },
   {
-    "title": "Mastering Sequelize for Database Management",
-    "content": "Sequelize simplifies working with databases in Node.js.",
-    "postedBy": "Bob White",
-    "createdOn": "2024-02-01T14:30:00Z"
+    "category": "Hollywood",
+    "title": "Secret Wedding Rumors: Damian Cole and Marisa Kane",
+    "content": "Sources claim Damian Cole and Marisa Kane may have tied the knot in a low-key ceremony, though representatives for both have declined to confirm or deny the reports.",
+    "posted on": "2025-08-14"
   },
   {
-    "title": "Async/Await in JavaScript Explained",
-    "content": "Understanding asynchronous JavaScript using async/await.",
-    "postedBy": "Charlie Green",
-    "createdOn": "2024-01-30T09:00:00Z"
+    "category": "Music",
+    "title": "New Project Teased: Talia Nash",
+    "content": "Talia Nash dropped a cryptic teaser hinting at a new project set to debut later this year, sending fans into a frenzy of speculation about what it could be.",
+    "posted on": "2026-03-09"
   },
   {
-    "title": "Introduction to GraphQL",
-    "content": "GraphQL provides a flexible alternative to REST APIs.",
-    "postedBy": "Dana Black",
-    "createdOn": "2024-01-29T17:00:00Z"
+    "category": "Influencers",
+    "title": "Surprise Announcement: Priya Kessler",
+    "content": "Priya Kessler shocked followers by announcing a major life change during a livestream, catching even close friends off guard. A rep for Priya Kessler has yet to comment on the specifics.",
+    "posted on": "2025-04-15"
   },
   {
-    "title": "Why TypeScript is Gaining Popularity",
-    "content": "TypeScript enhances JavaScript by adding static typing.",
-    "postedBy": "Ethan Ford",
-    "createdOn": "2024-01-28T11:30:00Z"
+    "category": "Influencers",
+    "title": "Feud Heats Up: Bianca Solis and Selene Marchetti",
+    "content": "Tension between Bianca Solis and Selene Marchetti boiled over this week when a since-deleted post appeared to take a swipe at their former collaborator. Fans are split over who started it, but sources say the fallout stems from a canceled joint project.",
+    "posted on": "2025-09-28"
   },
   {
-    "title": "Building RESTful APIs with Express",
-    "content": "A guide to creating scalable RESTful APIs using Express.js.",
-    "postedBy": "Fiona Blue",
-    "createdOn": "2024-01-27T15:45:00Z"
+    "category": "Reality TV",
+    "title": "Late Night Sighting: Silas Underwood",
+    "content": "Silas Underwood was photographed leaving a courtside VIP section well past midnight, sparking questions about who they were meeting and why the outing was kept so quiet.",
+    "posted on": "2026-01-23"
   },
   {
-    "title": "Dockerizing Your Node.js Application",
-    "content": "Learn how to containerize your Node.js app with Docker.",
-    "postedBy": "George Red",
-    "createdOn": "2024-01-26T08:20:00Z"
+    "category": "Influencers",
+    "title": "New Project Teased: Bianca Solis",
+    "content": "Bianca Solis dropped a cryptic teaser hinting at a new project set to debut later this year, sending fans into a frenzy of speculation about what it could be.",
+    "posted on": "2025-07-16"
   },
   {
-    "title": "How to Secure a Node.js Application",
-    "content": "Implement security best practices for your Node.js apps.",
-    "postedBy": "Hannah Yellow",
-    "createdOn": "2024-01-25T13:10:00Z"
+    "category": "Sports",
+    "title": "Spotted Together Again: Portia Whitlock and Bianca Solis",
+    "content": "Portia Whitlock and Bianca Solis were seen leaving an award show afterparty hand in hand late last night, fueling fresh dating rumors after weeks of denial from both camps. Insiders close to the pair say the two have been quietly texting for months.",
+    "posted on": "2025-03-23"
   },
   {
-    "title": "React Hooks: The Ultimate Guide",
-    "content": "Understand and implement React Hooks for state and effects.",
-    "postedBy": "Ian Silver",
-    "createdOn": "2024-01-24T10:55:00Z"
+    "category": "Hollywood",
+    "title": "Award Show Snub: Cleo Bardot and Cassius Blake",
+    "content": "Cleo Bardot appeared visibly frustrated after being passed over at this year's ceremony, and a tense backstage moment with Cassius Blake did little to calm the rumors.",
+    "posted on": "2025-10-12"
   },
   {
-    "title": "The Benefits of Serverless Architecture",
-    "content": "Exploring serverless computing and how it reduces costs.",
-    "postedBy": "Julia Gold",
-    "createdOn": "2024-01-23T18:25:00Z"
+    "category": "Music",
+    "title": "Award Show Snub: Talia Nash and Estelle Rourke",
+    "content": "Talia Nash appeared visibly frustrated after being passed over at this year's ceremony, and a tense backstage moment with Estelle Rourke did little to calm the rumors.",
+    "posted on": "2026-01-15"
   },
   {
-    "title": "WebSockets vs HTTP: What's the Difference?",
-    "content": "Understanding real-time communication with WebSockets.",
-    "postedBy": "Kevin Brown",
-    "createdOn": "2024-01-22T07:40:00Z"
+    "category": "Reality TV",
+    "title": "Unexpected Collaboration: Milo Vantage and Nadia Ferro",
+    "content": "In a move nobody saw coming, Milo Vantage and Nadia Ferro confirmed they're teaming up on a new venture, ending months of rumors about a rivalry between the two.",
+    "posted on": "2025-06-25"
   },
   {
-    "title": "Automating Tasks with Node.js",
-    "content": "Use Node.js for task automation with scripts and schedulers.",
-    "postedBy": "Lara White",
-    "createdOn": "2024-01-21T16:50:00Z"
+    "category": "Royals",
+    "title": "Breakup Rumors Swirl: Rafael Quintero and Zane Ferris",
+    "content": "Whispers of a split between Rafael Quintero and Zane Ferris are growing louder after both unfollowed each other on social media over the weekend. Neither has addressed the speculation directly.",
+    "posted on": "2026-01-24"
   },
   {
-    "title": "A Guide to MongoDB Aggregation Pipeline",
-    "content": "Learn how to perform advanced queries with MongoDB.",
-    "postedBy": "Mike Gray",
-    "createdOn": "2024-01-20T12:35:00Z"
+    "category": "Fashion",
+    "title": "Unexpected Collaboration: Odette Larkin and Delphine Roux",
+    "content": "In a move nobody saw coming, Odette Larkin and Delphine Roux confirmed they're teaming up on a new venture, ending months of rumors about a rivalry between the two.",
+    "posted on": "2025-11-29"
   },
   {
-    "title": "Why You Should Use Next.js for React Apps",
-    "content": "Next.js enhances React with server-side rendering and SEO.",
-    "postedBy": "Nina Purple",
-    "createdOn": "2024-01-19T14:20:00Z"
+    "category": "Fashion",
+    "title": "Social Media Cleanup: Noor Halabi and Marguerite Fox",
+    "content": "Fans noticed Noor Halabi scrubbed nearly every photo of Marguerite Fox from their social media, leading many to believe the pair have quietly parted ways.",
+    "posted on": "2025-02-02"
   },
   {
-    "title": "Understanding OAuth 2.0 Authentication",
-    "content": "OAuth 2.0 is a secure authorization framework for web apps.",
-    "postedBy": "Oscar Blue",
-    "createdOn": "2024-01-18T09:45:00Z"
+    "category": "Reality TV",
+    "title": "Reunion Sparks Talk: Silas Underwood and Priya Kessler",
+    "content": "After years of speculation, Silas Underwood and Priya Kessler reunited publicly at a fashion week showcase, reigniting chatter about the real story behind their falling out years ago.",
+    "posted on": "2025-08-05"
   },
   {
-    "title": "Testing Your Node.js Application",
-    "content": "Learn about Jest, Mocha, and other testing frameworks.",
-    "postedBy": "Paula Pink",
-    "createdOn": "2024-01-17T11:15:00Z"
+    "category": "Fashion",
+    "title": "Family Drama Emerges: Delphine Roux and Wren Ashby",
+    "content": "New details have emerged about a rift between Delphine Roux and their inner circle, with Wren Ashby reportedly caught in the middle of the dispute.",
+    "posted on": "2026-05-27"
   },
   {
-    "title": "Scaling Node.js Applications",
-    "content": "Techniques to handle high traffic with Node.js efficiently.",
-    "postedBy": "Quinn Orange",
-    "createdOn": "2024-01-16T15:05:00Z"
+    "category": "Music",
+    "title": "Family Drama Emerges: Selene Marchetti and Finn Ostrander",
+    "content": "New details have emerged about a rift between Selene Marchetti and their inner circle, with Finn Ostrander reportedly caught in the middle of the dispute.",
+    "posted on": "2025-09-29"
   },
   {
-    "title": "Deploying Your App on AWS with CI/CD",
-    "content": "Learn how to automate deployments using AWS and CI/CD pipelines.",
-    "postedBy": "Ryan Green",
-    "createdOn": "2024-01-15T08:50:00Z"
+    "category": "Sports",
+    "title": "Late Night Sighting: Lila Monroe",
+    "content": "Lila Monroe was photographed leaving a music festival backstage area well past midnight, sparking questions about who they were meeting and why the outing was kept so quiet.",
+    "posted on": "2026-03-15"
+  },
+  {
+    "category": "Fashion",
+    "title": "Reunion Sparks Talk: Finn Ostrander and Wren Ashby",
+    "content": "After years of speculation, Finn Ostrander and Wren Ashby reunited publicly at a late-night diner, reigniting chatter about the real story behind their falling out years ago.",
+    "posted on": "2025-05-22"
+  },
+  {
+    "category": "Reality TV",
+    "title": "Feud Heats Up: Ivy Callahan and Corbin Delacroix",
+    "content": "Tension between Ivy Callahan and Corbin Delacroix boiled over this week when a since-deleted post appeared to take a swipe at their former collaborator. Fans are split over who started it, but sources say the fallout stems from a canceled joint project.",
+    "posted on": "2025-06-06"
+  },
+  {
+    "category": "Reality TV",
+    "title": "Social Media Cleanup: Estelle Rourke and Tyrell Voss",
+    "content": "Fans noticed Estelle Rourke scrubbed nearly every photo of Tyrell Voss from their social media, leading many to believe the pair have quietly parted ways.",
+    "posted on": "2026-01-30"
+  },
+  {
+    "category": "Sports",
+    "title": "Under Fire Online: Selene Marchetti and Damian Cole",
+    "content": "Selene Marchetti faced backlash this week after old comments resurfaced online, prompting a wave of reactions from fellow celebrities including a pointed response from Damian Cole.",
+    "posted on": "2026-07-21"
+  },
+  {
+    "category": "Sports",
+    "title": "Unexpected Collaboration: Cleo Bardot and Marisa Kane",
+    "content": "In a move nobody saw coming, Cleo Bardot and Marisa Kane confirmed they're teaming up on a new venture, ending months of rumors about a rivalry between the two.",
+    "posted on": "2025-12-15"
+  },
+  {
+    "category": "Royals",
+    "title": "Reunion Sparks Talk: Devon Ashcroft and Reeve Sinclair",
+    "content": "After years of speculation, Devon Ashcroft and Reeve Sinclair reunited publicly at a beachside restaurant, reigniting chatter about the real story behind their falling out years ago.",
+    "posted on": "2025-01-04"
+  },
+  {
+    "category": "Music",
+    "title": "Late Night Sighting: Zane Ferris",
+    "content": "Zane Ferris was photographed leaving a fashion week showcase well past midnight, sparking questions about who they were meeting and why the outing was kept so quiet.",
+    "posted on": "2026-06-04"
+  },
+  {
+    "category": "Fashion",
+    "title": "Award Show Snub: Delphine Roux and Devon Ashcroft",
+    "content": "Delphine Roux appeared visibly frustrated after being passed over at this year's ceremony, and a tense backstage moment with Devon Ashcroft did little to calm the rumors.",
+    "posted on": "2025-06-06"
+  },
+  {
+    "category": "Celebrity",
+    "title": "Surprise Announcement: Milo Vantage",
+    "content": "Milo Vantage shocked followers by announcing a major life change during a livestream, catching even close friends off guard. A rep for Milo Vantage has yet to comment on the specifics.",
+    "posted on": "2025-11-28"
+  },
+  {
+    "category": "Sports",
+    "title": "Feud Heats Up: Corbin Delacroix and Marisa Kane",
+    "content": "Tension between Corbin Delacroix and Marisa Kane boiled over this week when a since-deleted post appeared to take a swipe at their former collaborator. Fans are split over who started it, but sources say the fallout stems from a canceled joint project.",
+    "posted on": "2025-09-03"
+  },
+  {
+    "category": "Reality TV",
+    "title": "Family Drama Emerges: Jax Rowen and Cassius Blake",
+    "content": "New details have emerged about a rift between Jax Rowen and their inner circle, with Cassius Blake reportedly caught in the middle of the dispute.",
+    "posted on": "2025-03-29"
+  },
+  {
+    "category": "Music",
+    "title": "Award Show Snub: Zane Ferris and Corbin Delacroix",
+    "content": "Zane Ferris appeared visibly frustrated after being passed over at this year's ceremony, and a tense backstage moment with Corbin Delacroix did little to calm the rumors.",
+    "posted on": "2025-05-12"
+  },
+  {
+    "category": "Sports",
+    "title": "Secret Wedding Rumors: Kai Sundberg and Corbin Delacroix",
+    "content": "Sources claim Kai Sundberg and Corbin Delacroix may have tied the knot in a low-key ceremony, though representatives for both have declined to confirm or deny the reports.",
+    "posted on": "2026-06-25"
+  },
+  {
+    "category": "Fashion",
+    "title": "Reunion Sparks Talk: Cleo Bardot and Damian Cole",
+    "content": "After years of speculation, Cleo Bardot and Damian Cole reunited publicly at an award show afterparty, reigniting chatter about the real story behind their falling out years ago.",
+    "posted on": "2025-11-16"
+  },
+  {
+    "category": "Royals",
+    "title": "Unexpected Collaboration: Selene Marchetti and Kai Sundberg",
+    "content": "In a move nobody saw coming, Selene Marchetti and Kai Sundberg confirmed they're teaming up on a new venture, ending months of rumors about a rivalry between the two.",
+    "posted on": "2026-06-14"
+  },
+  {
+    "category": "Reality TV",
+    "title": "Breakup Rumors Swirl: Talia Nash and Devon Ashcroft",
+    "content": "Whispers of a split between Talia Nash and Devon Ashcroft are growing louder after both unfollowed each other on social media over the weekend. Neither has addressed the speculation directly.",
+    "posted on": "2025-12-13"
+  },
+  {
+    "category": "Fashion",
+    "title": "Secret Wedding Rumors: Marisa Kane and Wren Ashby",
+    "content": "Sources claim Marisa Kane and Wren Ashby may have tied the knot in a low-key ceremony, though representatives for both have declined to confirm or deny the reports.",
+    "posted on": "2025-01-08"
+  },
+  {
+    "category": "Fashion",
+    "title": "Unexpected Collaboration: Bianca Solis and Portia Whitlock",
+    "content": "In a move nobody saw coming, Bianca Solis and Portia Whitlock confirmed they're teaming up on a new venture, ending months of rumors about a rivalry between the two.",
+    "posted on": "2025-03-11"
+  },
+  {
+    "category": "Reality TV",
+    "title": "Award Show Snub: Finn Ostrander and Jax Rowen",
+    "content": "Finn Ostrander appeared visibly frustrated after being passed over at this year's ceremony, and a tense backstage moment with Jax Rowen did little to calm the rumors.",
+    "posted on": "2026-06-11"
+  },
+  {
+    "category": "Fashion",
+    "title": "Unexpected Collaboration: Cassius Blake and Odette Larkin",
+    "content": "In a move nobody saw coming, Cassius Blake and Odette Larkin confirmed they're teaming up on a new venture, ending months of rumors about a rivalry between the two.",
+    "posted on": "2026-07-07"
+  },
+  {
+    "category": "Royals",
+    "title": "Family Drama Emerges: Lila Monroe and Zane Ferris",
+    "content": "New details have emerged about a rift between Lila Monroe and their inner circle, with Zane Ferris reportedly caught in the middle of the dispute.",
+    "posted on": "2025-09-06"
+  },
+  {
+    "category": "Fashion",
+    "title": "Social Media Cleanup: Silas Underwood and Corbin Delacroix",
+    "content": "Fans noticed Silas Underwood scrubbed nearly every photo of Corbin Delacroix from their social media, leading many to believe the pair have quietly parted ways.",
+    "posted on": "2025-04-07"
+  },
+  {
+    "category": "Hollywood",
+    "title": "Reunion Sparks Talk: Devon Ashcroft and Kai Sundberg",
+    "content": "After years of speculation, Devon Ashcroft and Kai Sundberg reunited publicly at a late-night diner, reigniting chatter about the real story behind their falling out years ago.",
+    "posted on": "2026-02-25"
+  },
+  {
+    "category": "Reality TV",
+    "title": "Late Night Sighting: Talia Nash",
+    "content": "Talia Nash was photographed leaving a downtown rooftop bar well past midnight, sparking questions about who they were meeting and why the outing was kept so quiet.",
+    "posted on": "2025-03-04"
+  },
+  {
+    "category": "Fashion",
+    "title": "Red Carpet Moment: Selene Marchetti and Zane Ferris",
+    "content": "All eyes were on Selene Marchetti at the a private members club premiere, where an unexpected outfit choice and a brief exchange with Zane Ferris became the talk of the night.",
+    "posted on": "2025-07-16"
+  },
+  {
+    "category": "Hollywood",
+    "title": "Under Fire Online: Nadia Ferro and Rafael Quintero",
+    "content": "Nadia Ferro faced backlash this week after old comments resurfaced online, prompting a wave of reactions from fellow celebrities including a pointed response from Rafael Quintero.",
+    "posted on": "2025-07-07"
+  },
+  {
+    "category": "Royals",
+    "title": "Breakup Rumors Swirl: Odette Larkin and Talia Nash",
+    "content": "Whispers of a split between Odette Larkin and Talia Nash are growing louder after both unfollowed each other on social media over the weekend. Neither has addressed the speculation directly.",
+    "posted on": "2026-07-18"
+  },
+  {
+    "category": "Celebrity",
+    "title": "Unexpected Collaboration: Devon Ashcroft and Jax Rowen",
+    "content": "In a move nobody saw coming, Devon Ashcroft and Jax Rowen confirmed they're teaming up on a new venture, ending months of rumors about a rivalry between the two.",
+    "posted on": "2025-04-06"
+  },
+  {
+    "category": "Music",
+    "title": "Award Show Snub: Delphine Roux and Marguerite Fox",
+    "content": "Delphine Roux appeared visibly frustrated after being passed over at this year's ceremony, and a tense backstage moment with Marguerite Fox did little to calm the rumors.",
+    "posted on": "2026-02-21"
+  },
+  {
+    "category": "Celebrity",
+    "title": "Award Show Snub: Corbin Delacroix and Nadia Ferro",
+    "content": "Corbin Delacroix appeared visibly frustrated after being passed over at this year's ceremony, and a tense backstage moment with Nadia Ferro did little to calm the rumors.",
+    "posted on": "2025-06-18"
+  },
+  {
+    "category": "Royals",
+    "title": "Reunion Sparks Talk: Selene Marchetti and Marisa Kane",
+    "content": "After years of speculation, Selene Marchetti and Marisa Kane reunited publicly at a fashion week showcase, reigniting chatter about the real story behind their falling out years ago.",
+    "posted on": "2025-10-20"
+  },
+  {
+    "category": "Royals",
+    "title": "Late Night Sighting: August Wren",
+    "content": "August Wren was photographed leaving a music festival backstage area well past midnight, sparking questions about who they were meeting and why the outing was kept so quiet.",
+    "posted on": "2025-06-08"
+  },
+  {
+    "category": "Celebrity",
+    "title": "Breakup Rumors Swirl: Nadia Ferro and Reeve Sinclair",
+    "content": "Whispers of a split between Nadia Ferro and Reeve Sinclair are growing louder after both unfollowed each other on social media over the weekend. Neither has addressed the speculation directly.",
+    "posted on": "2025-11-18"
+  },
+  {
+    "category": "Music",
+    "title": "Under Fire Online: Jax Rowen and Wren Ashby",
+    "content": "Jax Rowen faced backlash this week after old comments resurfaced online, prompting a wave of reactions from fellow celebrities including a pointed response from Wren Ashby.",
+    "posted on": "2025-02-28"
+  },
+  {
+    "category": "Reality TV",
+    "title": "Award Show Snub: Ivy Callahan and Bianca Solis",
+    "content": "Ivy Callahan appeared visibly frustrated after being passed over at this year's ceremony, and a tense backstage moment with Bianca Solis did little to calm the rumors.",
+    "posted on": "2025-03-11"
+  },
+  {
+    "category": "Reality TV",
+    "title": "Breakup Rumors Swirl: Kai Sundberg and Cleo Bardot",
+    "content": "Whispers of a split between Kai Sundberg and Cleo Bardot are growing louder after both unfollowed each other on social media over the weekend. Neither has addressed the speculation directly.",
+    "posted on": "2026-08-07"
+  },
+  {
+    "category": "Reality TV",
+    "title": "Behind-the-Scenes Drama: Cassius Blake and Wren Ashby",
+    "content": "A leaked clip from the set of Cassius Blake's latest project appears to show tension with Wren Ashby, though both have publicly brushed off any suggestion of conflict.",
+    "posted on": "2026-03-06"
+  },
+  {
+    "category": "Influencers",
+    "title": "Behind-the-Scenes Drama: Kai Sundberg and Wren Ashby",
+    "content": "A leaked clip from the set of Kai Sundberg's latest project appears to show tension with Wren Ashby, though both have publicly brushed off any suggestion of conflict.",
+    "posted on": "2025-09-25"
+  },
+  {
+    "category": "Fashion",
+    "title": "Late Night Sighting: Nadia Ferro",
+    "content": "Nadia Ferro was photographed leaving a late-night diner well past midnight, sparking questions about who they were meeting and why the outing was kept so quiet.",
+    "posted on": "2025-09-29"
+  },
+  {
+    "category": "Royals",
+    "title": "Unexpected Collaboration: Selene Marchetti and Lila Monroe",
+    "content": "In a move nobody saw coming, Selene Marchetti and Lila Monroe confirmed they're teaming up on a new venture, ending months of rumors about a rivalry between the two.",
+    "posted on": "2025-11-20"
   }
 ]

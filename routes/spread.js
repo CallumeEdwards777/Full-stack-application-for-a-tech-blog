@@ -6,8 +6,8 @@ const { Post, Category } = require("../models/index");
 
 app.post("/", async (req, res) => {
   try {
-    const { title, content, postedBy } = req.body;
-    const post = await Post.create({ title, content, postedBy });
+    const { category, title, content, postedBy } = req.body;
+    const post = await Post.create({ category, title, content, postedBy });
 
     res.status(201).json(post);
   } catch (error) {
