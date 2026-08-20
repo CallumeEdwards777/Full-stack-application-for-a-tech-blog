@@ -29,7 +29,7 @@ app.get("/", async (req, res) => {
 
 app.get("/:id", async (req, res) => {
   try {
-    const category = await Post.findByPk(req.params.id);
+    const category = await Category.findByPk(req.params.id);
     res.json(category);
   } catch (error) {
     res.status(500).json({ error: "Error retrieving category" });
@@ -39,12 +39,12 @@ app.get("/:id", async (req, res) => {
 
 app.put("/:id", async (req, res) => {
   try {
-    const { name } = req.body;
-    const post = await Category.update(
-      { name },
+    const { category_name } = req.body;
+    const updated = await Category.update(
+      { category_name },
       { where: { id: req.params.id } }
     );
-    res.json(post);
+    res.json(updated);
   } catch (error) {
     res.status(500).json({ error: "Error updating category" });
   }

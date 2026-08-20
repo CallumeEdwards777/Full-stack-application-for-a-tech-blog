@@ -6,8 +6,8 @@ const { Post, Category } = require("../models/index");
 
 app.post("/", async (req, res) => {
   try {
-    const { category, title, content, postedBy } = req.body;
-    const post = await Post.create({ category, title, content, postedBy });
+    const { categoryId, userId, title, content, postedBy } = req.body;
+    const post = await Post.create({ categoryId, userId, title, content, postedBy });
 
     res.status(201).json(post);
   } catch (error) {
@@ -18,9 +18,9 @@ app.post("/", async (req, res) => {
 
 app.get("/", async (req, res) => {
   try {
-    const {category_id} = req.query;
+    const { categoryId } = req.query;
 
-    const whereClause = category_id ? { category_id } : {};
+    const whereClause = categoryId ? { categoryId } : {};
     const posts = await Post.findAll({ where: whereClause,
     include: [{ model: Category, as: "category" }] });
 

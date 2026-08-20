@@ -22,10 +22,6 @@ Spread.init(
       type: DataTypes.INTEGER,
       allowNull: true,
     },
-    userId: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-    },
     createdOn: {
       type: DataTypes.DATE,
       allowNull: false,

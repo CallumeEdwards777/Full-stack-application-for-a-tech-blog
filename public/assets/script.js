@@ -69,7 +69,7 @@ function logout() {
 }
 
 function loadcategories() {
-  fetch("http://localhost:3001/api/category", {
+  fetch("http://localhost:3001/api/categories", {
     headers: { Authorization: `Bearer ${token}` },
   })
     .then((res) => res.json())
@@ -81,18 +81,20 @@ function loadcategories() {
       categories.forEach((category) => {
         const option = document.createElement("option");
         option.value = category.id;
-        option.textContent = category.name;
+        option.textContent = category.category_name;
         postCategory.appendChild(option);
         filterCategory.appendChild(option.cloneNode(true));
-        filterCategorySelect.appendChild(filterOption);
       });
+    })
+    .catch((error) => {
+      console.log(error);
     });
 }
 
 function fetchPosts() {
   const categoryId = document.getElementById("filter-category").value;
   const url = categoryId
-    ? `http://localhost:3001/api/spread?category_id=${categoryId}`
+    ? `http://localhost:3001/api/spread?categoryId=${categoryId}`
     : "http://localhost:3001/api/spread";
 
   fetch(url, {

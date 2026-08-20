@@ -19,6 +19,7 @@ User.hasMany(Post, {
 });
 
 Post.belongsTo(User, {
+  
   foreignKey: "userId",
 });
 
